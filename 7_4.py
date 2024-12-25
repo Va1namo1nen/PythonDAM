@@ -23,7 +23,6 @@ def count_mondays(valid_date):
         if current_date.weekday() == 0:  # Понедельник
             count += 1
         current_date += timedelta(days=1)
-
     return count
 
 
